@@ -1,8 +1,10 @@
 .body-container{
-    /* background-color: rgb(13, 127, 227); */
-    height: 10000px;
+   
+   
     width: 100%;
-    /* border: 2px solid black;  */
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+    
 }
 .nav{
     background-color:black;
@@ -22,29 +24,37 @@
     color: white;
 }    
 .hero{
-    /* background-color: antiquewhite; */
+    
     height: 550px;    
 }
 .img-content1{
     background-color: black;
     position: absolute;
     left: 20px;
-    bottom:180px;
+    bottom:100px;
     color: white;     
 }
 .img-content2{
-    /* background-color: antiquewhite; */
+    
     position: absolute;
     top: 250px;
     left: 50%;
     font-size: 52px;
 }
+.img-content3{
+    position: absolute;
+    left: 1200px;
+    bottom: 100px;
+    color: white;   
+
+}
 .about{
-    /* background-color: antiquewhite; */
+      
     height: 1050px;
-    width: 600px;
+    width: 750px;
     margin: auto;
     padding: 10px;
+    
 }
 h5{
     text-align: center;
@@ -52,18 +62,20 @@ h5{
     padding-top: 64px!important;
     padding-bottom: 64px!important;
 }
-p{
+.p{
     text-align: center;
 }
 .small{
-    background-color: rgba(237, 231, 231, 0.838);
+    background-color:beige;
     height: 120px;
     border-left: 5px solid rgb(194, 189, 189);
 }
 .medium{
-    /* background-color: aquamarine; */
+    background-color: beige; 
     height: 610px;
 }
+
+
 .menu{
     background-color: rgb(251, 249, 249);
     justify-content: space-between;
@@ -77,4 +89,30 @@ p{
 .subpara{
     text-align: left;
     padding: 10px;
+}
+.map{
+   color: beige;
+   
+
+}
+.forms{
+    width: 100px;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+
+}
+.border{
+    padding-top: 16px;
+    padding-bottom:15px ;
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+}
+.submit{
+    color: #ccc;
+    background-color: black;
+    display: inline-block;
+    border: none;
+    padding: 8px 16px;
 }
